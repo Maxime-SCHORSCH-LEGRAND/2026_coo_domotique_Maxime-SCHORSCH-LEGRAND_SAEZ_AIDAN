@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Telecommande implements Appareil{
+public class Telecommande {
 
 
 	private List<Appareil> Appareils;
@@ -52,12 +52,6 @@ public class Telecommande implements Appareil{
 			return (this.Appareils.get(indiceAppareil));
 		else
 			return(null);
-	}
-	public void allumer(){
-		System.out.println("hello");
-	}
-	public void eteindre(){
-		System.out.println("Hello");
 	}
 
 }
