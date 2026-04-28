@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2026_coo_domotique_Maxime-SCHORSCH-LEGRAND_SAEZ_AIDAN.iml" filepath="$PROJECT_DIR$/.idea/2026_coo_domotique_Maxime-SCHORSCH-LEGRAND_SAEZ_AIDAN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/td5/td5.iml" filepath="$PROJECT_DIR$/td5/td5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/td6/td6.iml" filepath="$PROJECT_DIR$/td6/td6.iml" />
+    </modules>
+  </component>
+</project>

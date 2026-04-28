@@ -40,16 +40,16 @@ public class Telecommande {
 
 	public String toString() {
 		String descriptif = "";
-		for (int i = 0; i < this.Appareils.size(); i++) {
-			descriptif += i + "-" + this.Appareils.get(i) + "\n";
+		for (int i = 0; i < this.appareils.size(); i++) {
+			descriptif += i + "-" + this.appareils.get(i) + "\n";
 		}
 		return (descriptif);
 	}
 
 
 	public Appareil getAppareil(int indiceAppareil) {
-		if (indiceAppareil < this.Appareils.size())
-			return (this.Appareils.get(indiceAppareil));
+		if (indiceAppareil < this.appareils.size())
+			return (this.appareils.get(indiceAppareil));
 		else
 			return(null);
 	}
