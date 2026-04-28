@@ -73,16 +73,16 @@ public class Main {
 	 *            telecommande dans lequelle on ajoute 4 lampes
 	 */
 	private static void ajouter4Lampes(Telecommande t) {
-		Lampe l1 = new Lampe("Lampe1");
+		Lampe l1 = new Lampe("Appareil1");
 		t.ajouterAppareil(l1);
 
-		Lampe l2 = new Lampe("Lampe2");
+		Lampe l2 = new Lampe("Appareil2");
 		t.ajouterAppareil(l2);
 
-		Lampe l3 = new Lampe("Lampe3");
+		Lampe l3 = new Lampe("Appareil3");
 		t.ajouterAppareil(l3);
 
-		Lampe l4 = new Lampe("Lampe4");
+		Lampe l4 = new Lampe("Appareil4");
 		t.ajouterAppareil(l4);
 	}
 

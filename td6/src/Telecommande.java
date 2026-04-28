@@ -5,34 +5,34 @@ import java.util.*;
 public class Telecommande {
 
 
-	private List<Appareil> Appareils;
+	private ArrayList<Appareil> appareils;
 
 
 	public Telecommande() {
-		this.Appareils = new ArrayList<Appareil>();
+		this.appareils = new ArrayList<Appareil>();
 	}
 
 	public void ajouterAppareil(Appareil nouvelleAppareil) {
-		this.Appareils.add(nouvelleAppareil);
+		this.appareils.add(nouvelleAppareil);
 	}
 
 	public void activerAppareil(int indiceAppareil) {
 
-		if (indiceAppareil < this.Appareils.size())
-			this.Appareils.get(indiceAppareil).allumer();
+		if (indiceAppareil < this.appareils.size())
+			this.appareils.get(indiceAppareil).allumer();
 	}
 
 
 	public void desactiverAppareil(int indiceAppareil) {
-		if (indiceAppareil < this.Appareils.size())
-			this.Appareils.get(indiceAppareil).eteindre();
+		if (indiceAppareil < this.appareils.size())
+			this.appareils.get(indiceAppareil).eteindre();
 	}
 
 	/**
 	 * permet d'activer l'ensemble des lampes
 	 */
 	public void activerTout() {
-		for (int i = 0; i < this.Appareils.size(); i++)
+		for (int i = 0; i < this.appareils.size(); i++)
 			// reutiliser du code existant
 			this.activerAppareil(i);
 	}
